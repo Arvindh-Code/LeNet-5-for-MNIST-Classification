@@ -1,27 +1,4 @@
-# Master's Projects
-
-   PROGRAMMING ASSIGNMENT 2 REPORT FOR MACHINE LEARNING  
-
-Name
-: Aravindh Gopalsamy
-UTA ID
-: 1002028538
-Assignment
-: 2
-Course
-: CSE 6363 - Machine Learning
-
-
-
-
-
-
-
-
-
-
-
-Implementation of Lenet5 using Pytorch:
+# Implementation of Lenet5 using Pytorch:
 
 
 

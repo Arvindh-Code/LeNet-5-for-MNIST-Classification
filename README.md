@@ -2,7 +2,7 @@
 
 
 
-![alt text]([http://url/to/img.png](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.superannotate.com%2Fblog%2Fguide-to-convolutional-neural-networks&psig=AOvVaw27z6BeiM_YpGw9JEAozR2M&ust=1702750091345000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOjdu8aEkoMDFQAAAAAdAAAAABAD))
+![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fhuggingface.co%2Fmindspore-ai%2FLeNet&psig=AOvVaw27z6BeiM_YpGw9JEAozR2M&ust=1702750091345000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOjdu8aEkoMDFQAAAAAdAAAAABAI)
 
 
 As per the architecture Layers have been implemented in the respective function in the code.

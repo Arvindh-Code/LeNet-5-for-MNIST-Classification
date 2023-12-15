@@ -1,1 +1,1 @@
-# MastersProjects
+# Master's Projects

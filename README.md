@@ -69,8 +69,15 @@ Feel free to experiment with hyperparameters to optimize the model's performance
 - Aravindh Gopalsamy
 - gopal98aravindh@gmail.com
 
-Please don't hesitate to reach out if you have any questions or feedback.
+## License
 
+This project is not open for external use or distribution. All rights reserved.
+
+## Important Note for Students
+
+**Warning:** This code is intended for educational purposes only. Please do not use this code for any assignment, and consider it as a reference implementation. Use your own implementation for academic assignments.
+
+Please don't hesitate to reach out if you have any questions or feedback.
 
 ## REFERENCE : 
 

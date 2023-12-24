@@ -66,9 +66,8 @@ Feel free to experiment with hyperparameters to optimize the model's performance
 
 ## Author
 
-- Your Name
-- Your Email Address
-- Link to Your Portfolio or LinkedIn Profile
+- Aravindh Gopalsamy
+- gopal98aravindh@gmail.com
 
 Please don't hesitate to reach out if you have any questions or feedback.
 

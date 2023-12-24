@@ -1,45 +1,86 @@
-# Implementation of Lenet5 using Pytorch:
+# LeNet-5 for MNIST Classification
+
+This repository contains a PyTorch implementation of the LeNet-5 convolutional neural network for classifying the MNIST handwritten digit dataset.
+
+![LeNet-5 Architecture](lenet5_architecture.png)
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Prerequisites](#prerequisites)
+- [Usage](#usage)
+- [LeNet-5 Architecture](#lenet-5-architecture)
+- [Results](#results)
+- [Model Save and Load](#model-save-and-load)
+- [Author](#author)
+
+## Introduction
+
+The LeNet-5 model is a classic architecture designed by Yann LeCun and his collaborators for handwritten digit recognition. This implementation uses PyTorch to train and test the model on the MNIST dataset.
+
+## Prerequisites
+
+Make sure you have the following dependencies installed:
+
+- Python 3
+- PyTorch
+- Matplotlib
+
+Install the dependencies using the following command:
+
+```bash
+pip install torch matplotlib
+```
+
+## Usage
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/lenet5-mnist.git
+cd lenet5-mnist
+```
+
+2. Run the script:
+
+```bash
+python lenet5_mnist.py
+```
+
+Feel free to adjust hyperparameters such as the number of epochs in the script.
+
+## LeNet-5 Architecture
+
+The LeNet-5 architecture consists of three convolutional layers followed by average pooling, and two fully connected layers. The activation function used is hyperbolic tangent (Tanh).
+
+## Results
+
+The script displays training and testing loss graphs, along with the test accuracy.
+
+## Model Save and Load
+
+The trained model can be saved and loaded using PyTorch's `torch.save` and `torch.load` functions. Example:
+
+```python
+# Save model
+torch.save(Lenetmodel.state_dict(), 'lenet_model.pth')
+
+# Load model
+loaded_model = LeNetArchitecture()
+loaded_model.load_state_dict(torch.load('lenet_model.pth'))
+```
+
+Feel free to experiment with hyperparameters to optimize the model's performance.
+
+## Author
+
+- Your Name
+- Your Email Address
+- Link to Your Portfolio or LinkedIn Profile
+
+Please don't hesitate to reach out if you have any questions or feedback.
 
 
-
-![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fhuggingface.co%2Fmindspore-ai%2FLeNet&psig=AOvVaw27z6BeiM_YpGw9JEAozR2M&ust=1702750091345000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOjdu8aEkoMDFQAAAAAdAAAAABAI)
-
-
-As per the architecture Layers have been implemented in the respective function in the code.
-
-LeNetArchitecture(): 
-
-As per the architecture of the lenet5 the layers have been called using their function name and passed with the required Kernal size, stride, padding, and neurons. Following is the order of the layer for the lenet5 implementation Convolution, Average pooling, Convolution, Average pooling, Convolution, and Fully Connected with respective parameters. 
-
-averagepoolinglayer():
-
-Average pooling has been calculated from torch.nn package.
-
-convolutionlayer():
-
-Convolution has been calculated from torch.nn package.
-
-fullyconnectedlayer():
-
-Fully Connected has been calculated from torch.nn package.
-
-
-
-
-
-training_data():
-
-Data set is passed through the neural network during training. And iterate based on epoch parameters. By using this function, loss between prediction and actual score ,and gradients by backpropagation have been calculated.
-
-testing_data():
-
-After setting the model to eval mode, testing is approached. After the prediction the accuracy score will be shown.
-
-By using this approach able to achieve 98.56% accuracy.
-
-
-
-REFERENCE : 
+## REFERENCE : 
 
 https://github.com/erykml/medium_articles/blob/master/Computer%20Vision/lenet5_pytorch.ipynb
 

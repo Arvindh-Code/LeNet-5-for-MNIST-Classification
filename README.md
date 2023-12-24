@@ -2,7 +2,7 @@
 
 This repository contains a PyTorch implementation of the LeNet-5 convolutional neural network for classifying the MNIST handwritten digit dataset.
 
-![LeNet-5 Architecture]([https://example.com/path/to/lenet5_architecture.png](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.analyticsvidhya.com%2Fblog%2F2021%2F03%2Fthe-architecture-of-lenet-5%2F&psig=AOvVaw2XohniT_Qqh5oCttvuD48I&ust=1703524535165000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCICkv8jJqIMDFQAAAAAdAAAAABAD))
+![LeNet-5 Architecture](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.analyticsvidhya.com%2Fblog%2F2021%2F03%2Fthe-architecture-of-lenet-5%2F&psig=AOvVaw2XohniT_Qqh5oCttvuD48I&ust=1703524535165000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCICkv8jJqIMDFQAAAAAdAAAAABAD)
 
 
 
